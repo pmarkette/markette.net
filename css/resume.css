@@ -1,0 +1,179 @@
+body  {
+	color: black;
+	background-color: #FCFCFE;
+   }
+   
+div.main {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	background-color: #FFFFFF;
+   }
+   
+div.header {
+     width: 800px;
+     height: 200px;
+   }
+
+div.content {
+	margin-right: auto;
+	margin-left: auto;
+
+   }
+
+a:link {
+	text-decoration:none;
+	color: #0066FF;
+	font-weight: bold;
+}
+a:visited {
+	text-decoration:none;
+	color: #0066FF;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration:none;
+	color: #CC0000;
+	font-weight: bold;
+}
+a:active {
+	text-decoration:none;
+	color: #0066FF;
+	font-weight: bold;
+}
+
+.maintext{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+h1{
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+h2{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+div.resume {
+	width: 690px;
+	padding: 30px;
+	border: 1px solid #666666;
+     }
+   
+div.resumeName {
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+     }
+   
+div.resumeAddress {
+	text-align: right;
+	font-size: 14px;
+     }
+   
+ul {
+	list-style-type:none;
+	margin-left:40px;
+	margin-right:10px;
+	margin-bottom:20px;
+	padding: 0px;
+     }
+   
+li {
+	margin-bottom: 15px;
+	list-style-type: disc;
+	text-align: left;
+	margin-right: 20px;
+	margin-top: 15px;
+     }  
+   
+div.resumeCompany {
+	float: left;
+	width: 345px;
+	text-align: left;
+	font-weight:bold;
+	font-size: 16px;
+	color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin-bottom: 10px;
+	padding-bottom: 4px;
+     }
+   
+div.resumeDate {
+	float: right;
+	width: 345px;
+	text-align: right;
+	font-weight:bold;
+	font-size: 16px;
+	color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin-bottom: 10px;
+	padding-bottom: 4px;
+     }
+   
+div.resumeLeft {
+     text-align: left;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-size: 1.25em;
+     }
+     
+div.resumeHeading {
+	text-align: left;
+	margin-bottom: 20px;
+     }
+   
+div.resumeTitle {
+     width: 100%;
+     text-align: left;
+     clear:both;
+     margin-bottom: 15px;
+     }
+   
+div.resumeCompanyDesc {
+     margin-bottom: 10px;
+     margin-right:20px;
+     text-align: justify;
+     }
+     
+div.resumeCertifications {
+     margin-top: 25px;
+     text-align: justify;
+     }     
+     
+div.resumeDownload {
+	width: 115px;
+	text-align: left;
+	margin-bottom: 5px;
+	float: right;
+	border: 1px solid #666666;
+	font-size: 10px;
+	padding-right: 8px;
+	padding-left: 8px;
+     }
+     
+img.resumeDownload {
+	padding-top: 5px;
+	margin-right: 5px;
+	border: 0px;
+     }
+     
+div.rightfooter {
+     float: right;
+     width: 50%;
+     height: 100px;
+   }
+   
+p.right {
+   text-align:right;
+   padding:0px 0px 0px 0px;
+   }   

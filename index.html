@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="description" content="Welcome to the Markette Homepage" />
+<meta name="designer" content="Markette Consulting" />
+<!--<meta name="copyright" content="Copyright 1996" />-->
+<title>The Markette Place</title>
+<link rel="stylesheet" type="text/css" href="css/home.css" />
+
+<script type="text/javascript" src="js/w3html5.js"></script>
+<script type="text/javascript" src="js/w3Css.js"></script>
+<script type="text/javascript" src="js/external.js"></script>
+
+<!-- Google Ajax Api -->
+<script src="http://www.google.com/jsapi?key=notsupplied-wizard" type="text/javascript"></script>
+
+<!-- Dynamic Feed Control and Stylesheet -->
+<script type="text/javascript" src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js">
+</script>
+<style type="text/css">@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+</style>
+
+<script type="text/javascript">
+	function LoadDynamicFeedControl() {
+		var feeds = [
+			{title: 'MSNBC',
+			url: 'http://rss.msnbc.msn.com/id/3032091/device/rss/rss.xml'
+			},
+			{title: 'Huffington Post',
+			url: 'http://feeds.huffingtonpost.com/huffingtonpost/raw_feed'
+			},
+			{title: 'BBC World News',
+		    url: 'http://news.bbc.co.uk/rss/newsonline_world_edition/uk_news/rss.xml'
+			},
+			{title: 'Al Jazeera',
+		    url: 'http://english.aljazeera.net/Services/Rss/?PostingId=2007731105943979989'
+		    },
+			{title: 'Reuters Science',
+		    url: 'http://feeds.reuters.com/reuters/scienceNews'
+			},
+			{title: 'Slashdot',
+			url: 'http://rss.slashdot.org/Slashdot/slashdot'
+			},
+			{title: 'Electronic Frontier Foundation',
+	        url: 'http://www.eff.org/rss/updates.xml'
+			},
+			{title: 'Tom\'s Hardware - News',
+		    url: 'http://www.tomshardware.com/feeds/rss2/tom-s-hardware-us,18-1.xml'
+			},
+			{title: 'Tom\'s Hardware - Articles',
+		    url: 'http://www.tomshardware.com/feeds/rss2/tom-s-hardware-us,18-2.xml'
+			},
+			{title: 'PCWorld',
+		    url: 'http://pcworld.co.nz/rss/pcworld.xml'
+			},
+		    {title: 'Armchair Generalist',
+	 		url: 'http://armchairgeneralist.typepad.com/my_weblog/atom.xml'
+			}];
+		    var options = {
+			    stacked : true,
+		        horizontal : false,
+			    title : "News Feeds "
+			    }
+
+			new GFdynamicFeedControl(feeds, 'feed-control', options);
+			}
+				    // Load the feeds API and set the onload callback.
+			google.load('feeds', '1');
+			google.setOnLoadCallback(LoadDynamicFeedControl);
+			</script>
+</head>
+
+<body>
+	<div class="main">
+		<div class="header">
+		<div class="today"><script type="text/javascript" src="js/todayDate.js"></script></div>
+		<p class="title"><a href="http://markette.net"><img src="img/title.gif" alt="markette.net" height="46" width="800" /></a></p>
+		<p class="date">(Est. 1996)</p>
+        </div> <!-- end div header -->
+
+        <div class="content">
+		<!-- ++Begin Dynamic Feed Wizard Generated Code++ -->
+			<!--
+			// Created with a Google AJAX Search and Feed Wizard
+			// http://code.google.com/apis/ajaxsearch/wizards.html
+			-->
+
+			<!--
+			// The Following div element will end up holding the actual feed control.
+			// You can place this anywhere on your page.
+			-->
+			<div id="feed-control">
+				 <span style="color:#676767;font-size:11px;margin:10px;padding:4px;">Loading...</span>
+			</div>
+		<!-- ++End Dynamic Feed Control Wizard Generated Code++ -->
+        </div> <!-- end div content -->
+
+		
+		<div class="footWrap">
+			<div class="foot">
+				<p class="left">
+					<!-- <a href="https://www.eff.org/pages/blue-ribbon-campaign" rel="external"><img src="https://www.eff.org/sites/default/files/brstrip.gif" alt="Join the Blue Ribbon Online Free Speech Campaign" /></a> -->
+					<a href="http://www.greengeeks.com" rel="external"><img src="http://www.greengeeks.com/greentags/greengeeks_hosted_120x60.gif" alt="Green Geeks" /></a></p>
+			</div> 
+
+			<div class="foot">
+				<p><script type="text/javascript" src="js/noSpam.js"></script></p>
+			</div> 
+		
+			<div class="foot">
+				<p class="right">
+					<a href="javascript:w3html5()"><img id="html5" src="img/HTML5_Logo_32.png" alt="Valid HTML5" /></a>
+        			<a href="javascript:w3Css()"><img id="css" src="img/vcss-blue.gif" alt="Valid CSS!" /></a>
+        		</p>
+       	 	</div> 
+    	</div> <!-- end div footWrap -->
+	</div> <!-- end div main -->
+</body>
+</html>
+
